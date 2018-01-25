@@ -4,10 +4,10 @@ export PATH
 clear;
 rm -- "$0" 
 rm -f openvpn
-ServerLocation='Other';
-MirrorHost='http://67.21.85.68';
+ServerLocation='master';
+MirrorHost='https://gitee.com/lovepiqiu/52ml/raw';
 IPAddress=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
-pass=`wget http://67.21.85.68/Other/fuck.php -O - -q ; echo`;
+pass=`wget https://gitee.com/lovepiqiu/52ml/raw/master/fuck.php -O - -q ; echo`;
 #fuck.php内的文件内容是yaohuo.me用MD5加密后的内容
 
 
